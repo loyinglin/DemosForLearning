@@ -54,7 +54,7 @@
     [super viewDidLoad];
     
     // Create the URLs to be used for the source.
-    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"abc" ofType:@"aac"];
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"abc" ofType:@"mp3"];
     self.sourceURL = [NSURL fileURLWithPath:sourcePath];
     
     // Set the default values.
