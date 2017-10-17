@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4208354A1D5D8A8600C2E3C4 /* sourcePCM.aif in Resources */ = {isa = PBXBuildFile; fileRef = 420835491D5D8A8600C2E3C4 /* sourcePCM.aif */; };
+		4208354A1D5D8A8600C2E3C4 /* abc.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 420835491D5D8A8600C2E3C4 /* abc.pcm */; };
 		424CA40A1D5D19CB00336134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 424CA4091D5D19CB00336134 /* main.m */; };
 		424CA40D1D5D19CB00336134 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 424CA40C1D5D19CB00336134 /* AppDelegate.m */; };
 		424CA4101D5D19CB00336134 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424CA40F1D5D19CB00336134 /* ViewController.m */; };
@@ -15,10 +15,11 @@
 		424CA4151D5D19CB00336134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424CA4141D5D19CB00336134 /* Assets.xcassets */; };
 		424CA4181D5D19CB00336134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424CA4161D5D19CB00336134 /* LaunchScreen.storyboard */; };
 		424CA41F1D5D1BD600336134 /* ExtendedAudioFileConvertOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 424CA41E1D5D1BD600336134 /* ExtendedAudioFileConvertOperation.m */; };
+		FDA4E2D41F95E57900A451D3 /* abc.aac in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E2D31F95E57900A451D3 /* abc.aac */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		420835491D5D8A8600C2E3C4 /* sourcePCM.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourcePCM.aif; sourceTree = "<group>"; };
+		420835491D5D8A8600C2E3C4 /* abc.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.pcm; sourceTree = "<group>"; };
 		4208354D1D5D949900C2E3C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		424CA4051D5D19CB00336134 /* ExtendedAudioFileConvertTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtendedAudioFileConvertTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		424CA4091D5D19CB00336134 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		424CA4191D5D19CB00336134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		424CA41D1D5D1BD600336134 /* ExtendedAudioFileConvertOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendedAudioFileConvertOperation.h; sourceTree = "<group>"; };
 		424CA41E1D5D1BD600336134 /* ExtendedAudioFileConvertOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendedAudioFileConvertOperation.m; sourceTree = "<group>"; };
+		FDA4E2D31F95E57900A451D3 /* abc.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.aac; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,8 @@
 				424CA40F1D5D19CB00336134 /* ViewController.m */,
 				424CA41D1D5D1BD600336134 /* ExtendedAudioFileConvertOperation.h */,
 				424CA41E1D5D1BD600336134 /* ExtendedAudioFileConvertOperation.m */,
-				420835491D5D8A8600C2E3C4 /* sourcePCM.aif */,
+				420835491D5D8A8600C2E3C4 /* abc.pcm */,
+				FDA4E2D31F95E57900A451D3 /* abc.aac */,
 				424CA4111D5D19CB00336134 /* Main.storyboard */,
 				424CA4141D5D19CB00336134 /* Assets.xcassets */,
 				424CA4161D5D19CB00336134 /* LaunchScreen.storyboard */,
@@ -147,9 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4208354A1D5D8A8600C2E3C4 /* sourcePCM.aif in Resources */,
+				4208354A1D5D8A8600C2E3C4 /* abc.pcm in Resources */,
 				424CA4181D5D19CB00336134 /* LaunchScreen.storyboard in Resources */,
 				424CA4151D5D19CB00336134 /* Assets.xcassets in Resources */,
+				FDA4E2D41F95E57900A451D3 /* abc.aac in Resources */,
 				424CA4131D5D19CB00336134 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

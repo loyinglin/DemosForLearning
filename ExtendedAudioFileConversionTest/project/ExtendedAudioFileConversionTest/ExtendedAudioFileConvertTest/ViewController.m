@@ -54,7 +54,7 @@
     [super viewDidLoad];
     
     // Create the URLs to be used for the source.
-    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"sourcePCM" ofType:@"aif"];
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"abc" ofType:@"aac"];
     self.sourceURL = [NSURL fileURLWithPath:sourcePath];
     
     // Set the default values.
